@@ -1,19 +1,17 @@
-import { MenuAlt1Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { bindActionCreators } from "redux";
-import Breadcrump from "../../../../Components/Breadcrump";
-import ELoading from "../../../../Components/ELoading";
-import { actionCreators } from "../../../../store";
-import { adminRequests } from "../../../../config/requests";
-
-import useFetchAws from "../../../../hooks/useFetchAws";
-import { removeParam } from "../../../../helpers/removeParams";
-import FileUploadBtn from "../../../../Components/FileUploadBtn";
-import { fetchWrapper } from "../../../../helpers";
-import { BASE_URL } from "../../../../config";
-import AdminLayout from "../../../../Components/admin/AdminLayout";
+import Breadcrump from "@/Components/Breadcrump";
+import ELoading from "@/Components/ELoading";
+import { actionCreators } from "@/store";
+import { adminRequests } from "@/config/requests";
+import useFetchAws from "@/hooks/useFetchAws";
+import { removeParam } from "@/helpers/removeParams";
+import FileUploadBtn from "@/Components/FileUploadBtn";
+import { fetchWrapper } from "@/helpers";
+import { BASE_URL } from "@/config";
+import AdminLayout from "@/Components/admin/AdminLayout";
 import axios from "axios";
 
 function index() {

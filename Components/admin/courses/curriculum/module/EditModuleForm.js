@@ -1,13 +1,13 @@
 import { useState } from "react";
-import { courseService } from "../../../../../services/course.service";
+import { courseService } from "@/services";
 import { useSelector, useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
-import { actionCreators } from "../../../../../store/index";
-import { CloudUploadIcon, TrashIcon } from "@heroicons/react/24/solid";
-import ProgressBar from "../../../../ProgressBar";
-import { BUCKET_URL } from "../../../../../config";
+import { actionCreators } from "@/store";
+import { CloudArrowUpIcon, TrashIcon } from "@heroicons/react/24/solid";
+import { BUCKET_URL } from "@/config";
 import axios from "axios";
-import MultiSelect from "../../../../MultiSelect";
+import MultiSelect from "@/Components/MultiSelect";
+import ProgressBar from "@/Components/ProgressBar";
 
 function EditModuleForm({ setShowModal, moduleData, getCourse }) {
   const { course } = useSelector((state) => state.courses);
@@ -157,7 +157,7 @@ function EditModuleForm({ setShowModal, moduleData, getCourse }) {
               className="text-blue-600 cursor-pointer flex items-center"
               htmlFor="moduleImg"
             >
-              <CloudUploadIcon className="w-5 h-5 mr-2" />
+              <CloudArrowUpIcon className="w-5 h-5 mr-2" />
               <span> Add new image</span>
               <input
                 type="file"

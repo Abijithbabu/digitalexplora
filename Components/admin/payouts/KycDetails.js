@@ -1,4 +1,4 @@
-import { IdentificationIcon, OfficeBuildingIcon } from "@heroicons/react/24/solid";
+import { BuildingOfficeIcon, IdentificationIcon } from "@heroicons/react/24/solid";
 
 function KycDetails({ kyc }) {
   return (
@@ -23,7 +23,7 @@ function KycDetails({ kyc }) {
         <div>
           <label className="text-xs">Bank Name:</label>
           <h3 className="text-sm text-gray-600 font-bold flex items-center capitalize">
-            <OfficeBuildingIcon className="mr-2 w-6 h-6 text-blue-600" />
+            <BuildingOfficeIcon className="mr-2 w-6 h-6 text-blue-600" />
             {kyc.bankAccount?.bankName ? kyc.bankAccount.bankName : "Not found"}
           </h3>
         </div>

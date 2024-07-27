@@ -1,13 +1,12 @@
-export const BUCKET_URL = "https://digiexplora.s3.ap-south-1.amazonaws.com";
+export const BUCKET_URL = process.env.NEXT_PUBLIC_BUCKET_URL;
 
 export const AWSS3CONFIG = {
-  accessKeyId: process.env.REACT_APP_ACCESS_ID,
-  secretAccessKey: process.env.REACT_APP_ACCESS_KEY,
-  region: process.env.REACT_APP_REGION,
+  accessKeyId: process.env.NEXT_PUBLIC_ACCESS_ID,
+  secretAccessKey: process.env.NEXT_PUBLIC_ACCESS_KEY,
+  region: process.env.NEXT_PUBLIC_REGION,
 };
 
-export const BASE_URL = "http://localhost:5000";
-// export const BASE_URL = "https://dev.digitalexplora.com";
+export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
 
 export const AWS_API_URL = {
   USER: "/api/userS3",
@@ -15,5 +14,4 @@ export const AWS_API_URL = {
   WEBINAR: "/api/webinarS3",
 };
 
-export const COUNTRYAPIKEY =
-  "WGlnam5ncjBaWDFuY3B6T3JOVW9vajh2dERpQ291bkVONGplUGNBTA==";
+export const COUNTRYAPIKEY = process.env.NEXT_PUBLIC_COUNTRYAPIKEY

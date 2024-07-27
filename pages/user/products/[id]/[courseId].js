@@ -2,10 +2,10 @@ import Link from "next/link";
 import {
   ArrowLeftIcon,
   BookOpenIcon,
+  CheckIcon,
   ChevronUpIcon,
-  MenuIcon,
+  Bars3CenterLeftIcon,
 } from "@heroicons/react/24/solid";
-import CheckIconOutline from "@heroicons/react/outline/CheckCircleIcon";
 import styles from "../../../../styles/CourseView.module.css";
 import { useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
@@ -93,7 +93,7 @@ function CourseView() {
           {course ? course.courseDetails.courseName : "Loading..."}
         </h3>
         <div className="menu relative ml-auto">
-          <MenuIcon
+          <Bars3CenterLeftIcon
             className="w-5 h-5 text-gray-500 ml-auto cursor-pointer"
             onClick={() => setState((prevState) => !prevState)}
           />
@@ -162,7 +162,7 @@ function CourseView() {
                                     onClick={() => setSelectedLesson(lesson)}
                                   >
                                     <div className="lessons flex">
-                                      <CheckIconOutline className="w-5 h-5" />
+                                      <CheckIcon className="w-5 h-5" />
                                       <div className="text-gray-600 flex-1 ml-2">
                                         {index + 1}. {lesson.lessonName}
                                         <span className="flex text-xs mt-2">

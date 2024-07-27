@@ -16,6 +16,7 @@
     "@mui/icons-material": "^5.16.5",
     "@mui/material": "^5.16.5",
     "@nextui-org/react": "^2.4.6",
+    "aws-sdk": "^2.1664.0",
     "axios": "^1.7.2",
     "chart.js": "^4.4.3",
     "currency-symbol-map": "^5.1.0",

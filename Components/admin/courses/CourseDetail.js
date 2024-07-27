@@ -1,6 +1,5 @@
 import Breadcrump from "../../Breadcrump";
 import { useRouter } from "next/router";
-import { MenuAlt1Icon } from "@heroicons/react/outline";
 import { useDispatch, useSelector } from "react-redux";
 import { bindActionCreators } from "redux";
 import { actionCreators } from "../../../store";

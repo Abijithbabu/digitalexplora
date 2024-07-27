@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { bindActionCreators } from "redux";
 import AdminLayout from "../../../../Components/admin/AdminLayout";
 import { actionCreators } from "../../../../store";
-import { XMarkIcon, MenuAlt1Icon } from "@heroicons/react/24/solid";
+import { Bars3CenterLeftIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import Breadcrump from "../../../../Components/Breadcrump";
 import SingleWebinar from "../../../../Components/admin/webinar/SingleWebinar";
 import { useEffect } from "react";
@@ -30,7 +30,7 @@ function WebinarDetail({ slug }) {
             onClick={() => setAside(!aside)}
           />
         ) : (
-          <MenuAlt1Icon
+          <Bars3CenterLeftIcon
             className="block lg:hidden w-6 h-6 mr-8 cursor-pointer hover:text-blue-600 transition-colors duration-200 ease-in-out"
             onClick={() => setAside(!aside)}
           />

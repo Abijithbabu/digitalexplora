@@ -1,9 +1,9 @@
 import aws from "aws-sdk";
 
 const awsS3Config = {
-  accessKeyId: process.env.REACT_APP_ACCESS_ID,
-  secretAccessKey: process.env.REACT_APP_ACCESS_KEY,
-  region: process.env.REACT_APP_REGION,
+  accessKeyId: process.env.NEXT_PUBLIC_ACCESS_ID,
+  secretAccessKey: process.env.NEXT_PUBLIC_ACCESS_KEY,
+  region: process.env.NEXT_PUBLIC_REGION,
 };
 
 aws.config.update(awsS3Config);
@@ -14,7 +14,7 @@ export default async (req, res) => {
     const { key, type } = JSON.parse(req.body);
 
     const fileParams = {
-      Bucket: process.env.REACT_APP_BUCKET_NAME,
+      Bucket: process.env.NEXT_PUBLIC_BUCKET_NAME,
       Key: key,
       ContentType: type,
       ACL: "public-read",

@@ -1,11 +1,3 @@
-export const fetchRequest = () => {
-  return (dispatch) => {
-    dispatch({
-      type: "FETCH_PRODUCTS_REQUEST",
-    });
-  };
-};
-
 export const setCourses = (fetchData) => {
   return (dispatch) => {
     dispatch({
