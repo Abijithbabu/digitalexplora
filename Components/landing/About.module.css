@@ -1,0 +1,10 @@
+.aboutHeader {
+  background: rgba(0, 0, 0, 0.6)
+    url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1850&q=80")
+    center center no-repeat;
+  background-size: cover;
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

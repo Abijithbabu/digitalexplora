@@ -1,0 +1,7 @@
+.loginForm {
+  min-height: 100vh;
+  width: 100%;
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/85b798fa-f9ad-490d-b47c-94810eceeb51/d93fjuw-a48ad68e-26ef-4101-ab3f-23e605681414.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg1Yjc5OGZhLWY5YWQtNDkwZC1iNDdjLTk0ODEwZWNlZWI1MVwvZDkzZmp1dy1hNDhhZDY4ZS0yNmVmLTQxMDEtYWIzZi0yM2U2MDU2ODE0MTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QUfg8lOvQlAdCV9mnJtbGae4DXhuORlG8ty_nhEXMPE")
+    center center no-repeat;
+  background-size: cover;
+}

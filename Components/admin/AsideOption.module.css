@@ -1,0 +1,9 @@
+.asideOption_title {
+  display: inline-block;
+}
+
+@media (max-width: 991px) {
+  .asideOption_title {
+    display: none;
+  }
+}

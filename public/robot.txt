@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: ?ref=
+Disallow: /admin/
+Disallow: /user/
+
+Sitemap: https://www.digitalexplora.in/sitemap.xml

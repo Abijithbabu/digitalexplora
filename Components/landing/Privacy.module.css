@@ -1,0 +1,23 @@
+.privacyPolicy h4 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(35, 38, 48);
+  margin-bottom: 10px;
+}
+
+.policies p {
+  font-size: 16px;
+  margin-bottom: 2rem;
+  color: rgb(61, 61, 61);
+  line-height: 1.8rem;
+}
+
+.policies ol {
+  margin-left: 2rem;
+}
+
+.policies ol li h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: rgb(35, 38, 48);
+}

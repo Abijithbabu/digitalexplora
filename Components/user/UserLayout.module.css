@@ -1,0 +1,6 @@
+.userDashboard{
+    min-height: 100vh;
+}
+.userDashboard::-webkit-scrollbar{
+    display: none;
+}

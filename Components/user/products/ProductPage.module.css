@@ -1,0 +1,5 @@
+.productHeader {
+  background: rgba(0, 0, 0, 0.6) url("../../../public/img/productHeaderBg.jfif")
+    center center no-repeat;
+  background-size: cover;
+}
